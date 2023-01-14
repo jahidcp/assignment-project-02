@@ -1,0 +1,378 @@
+/* ---------------
+    Header Style 
+------------------ */
+
+header {
+    /* width: 1920px;
+    height: 1322px; */
+    background-color: #FFF4E7;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 240px;
+    margin-top: 63px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-element ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-title {
+    margin-left: 228px;
+    margin-top:50px;
+    font-size: 2.813em;
+    font-weight: 700;
+}
+
+/* Banner Design section */
+
+.brand-new {
+    text-align: center;
+}
+
+.brand-new-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.brand-new-title-description {
+    font-size: 1em;
+    font-weight: 400;
+    color: #727272;
+}
+
+.primary-btn {
+    border: none;
+    text-align: center;
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 1.25em;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.brand-new img {
+    margin-bottom: 45px;
+}
+
+/* -----------------
+    Architect Style
+   ----------------- */
+
+.architect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    margin-top: 85px;
+}
+
+.architect-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.architect-info {
+    width: 573px;
+    height: 303px;
+}
+
+.architect-title {
+    font-size: 2.813em;
+    font-weight: 700;
+    color: #727272;
+}
+
+.middle01 {
+    color: #131313;
+    font-weight: 700;
+}
+
+.middle02 {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.architect-description {
+    font-size: 1em;
+    font-weight: 400;
+    color: #727272;
+}
+
+.primary-btn2 {
+    border: none;
+    text-align: center;
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 1.25em;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+
+/* -----------------------------
+    Architect Feature Styles
+-------------------------------- */
+
+.feature {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+    margin-top: 130px;
+}
+
+.feature-area {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+}
+
+.feature-title {
+    font-size: 4em;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: -10px;
+}
+
+.feature-description {
+    font-size: 1em;
+    font-weight: 400;
+    color: #727272;
+}
+
+.architect-plan {
+    width: 586px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+.architect-plan-title {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #131313;
+}
+
+.primary-btn3 {
+    width: 342px;
+    height: 200px;
+    border: none;
+    background-color: #FF900E;
+    border-radius: 10px;
+    color: #f3e7e7;
+    padding: 46px 42px 45px 42px;
+    margin-top: -120px;
+    margin-left: -50px;
+}
+
+.btn-primary-title {
+    font-size: 4.063em;
+    font-weight: 700;
+    color: #f3e7e7;
+}
+
+.btn-primary-description {
+    font-size: 1.25em;
+    font-weight: 500;
+    color: #f3e7e7;
+}
+
+/* --------------------
+     Overview Styles
+   -------------------- */
+
+.overview {
+    display: flex;
+    justify-content: center;
+}
+
+.overview {
+    margin-left: -250px;
+    margin-top: 130px;
+}
+
+.overview-title {
+    font-size: 2.813em;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.overview-description {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/* ----------------------------
+     Client Overview Styles
+   ---------------------------- */
+
+.client-info {
+    display: flex;
+    justify-content: center;
+    gap: 124.17px;
+    margin-top: 100px;
+}
+
+.client-information {
+    width: 242px;
+    height: 242px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid #FF900E;
+    padding: 46px 35px 1px 35px;
+    border-radius: 10px;
+}
+
+.client-information:hover {
+    transform: rotate(-360deg);
+    background-color: orange;
+}
+
+
+/* -------------------------
+    Sponsor Section Styles  
+   -------------------------*/
+
+.sponsor-info {
+    text-align: center;
+    margin-top: 180px;
+}
+
+.sponsor-title {
+    font-size: 2.813em;
+    font-weight: 700;
+    color: #131313;
+}
+
+.sponsor-description {
+    font-size: 1em;
+    font-weight: 400;
+    color: #727272;
+}
+
+.sponsor-image {
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+    margin-top: 50px;
+}
+
+.sponsor-image img {
+    background-image: linear-gradient(#8080806b, #80808099, #80808000);
+}
+
+/* ---------------
+   Footer Section
+   --------------- */
+footer {
+    width: 1440px;
+    height: 100px;
+    background-color: #FFF4E7;
+    margin-top: 130px;
+    margin-bottom: 216px;
+    /* margin-left: 240px;
+    margin-right: 240px; */
+}
+
+.copyright-info {
+    font-size: 1.25em;
+    color: #424242;
+    text-align: center;
+    padding: 39px 410px;
+    border-radius: 8px;
+}
+
+/* ---------------
+     Media Query
+   --------------- */
+
+@media screen and (max-width:576px) {
+    header {
+        width: 100%;
+        background-color: aquamarine;
+    }
+    .nav-container {
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+    .nav-title {
+        margin: 0;
+    }
+    .nav-element ul {
+        gap: 5px;
+    }
+    .brand-new-title {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #131313;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    .architect-image {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .architect-image img {
+        width: 100%;
+    }
+
+    .architect {
+        flex-direction: column;
+    }
+
+    .architect-info {
+        width: 100%;
+    }
+
+    .feature {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .features {
+        width: 100%;
+    }
+
+    .feature-area {
+        width: 100%;
+    }
+
+    .feature-title {
+        width: 100%;
+    }
+
+    .feature-image img {
+        width: 100%;
+    }
+
+    .overview {
+        width: 100%;
+        margin: 0;
+    }
+}
