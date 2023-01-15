@@ -1,3 +1,8 @@
+/* -----------------
+      Font Styles
+-------------------- */
+
+
 /* ---------------
     Header Style 
 ------------------ */
@@ -152,6 +157,7 @@ nav ul li {
     font-weight: 700;
     color: #131313;
     margin-bottom: -10px;
+    border-left: 5px solid #FF900E;
 }
 
 .feature-description {
@@ -279,30 +285,29 @@ nav ul li {
     margin-top: 50px;
 }
 
-.sponsor-image img {
-    background-image: linear-gradient(#8080806b, #80808099, #80808000);
+.sponsor-image {
+    filter: grayscale(100%);
 }
 
 /* ---------------
    Footer Section
    --------------- */
 footer {
-    width: 1440px;
-    height: 100px;
+    /* width: 1440px;
+    height: 100px; */
     background-color: #FFF4E7;
     margin-top: 130px;
     margin-bottom: 216px;
-    /* margin-left: 240px;
-    margin-right: 240px; */
 }
 
-.copyright-info {
+.footer-description {
     font-size: 1.25em;
     color: #424242;
-    text-align: center;
     padding: 39px 410px;
     border-radius: 8px;
+    text-align: center;
 }
+
 
 /* ---------------
      Media Query
@@ -350,6 +355,10 @@ footer {
         width: 100%;
     }
 
+    .architect-plan {
+        width: 100%;
+    }
+
     .feature {
         flex-direction: column;
         width: 100%;
@@ -371,8 +380,30 @@ footer {
         width: 100%;
     }
 
+    .primary-btn3 {
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+    }
+
     .overview {
         width: 100%;
         margin: 0;
+    }
+
+    .client-info {
+        display: grid;
+        grid-template-columns: repeat(1. 1fr);
+        grid-column-gap: 20px;
+    }
+
+    .sponsor-image {
+        display: block;
+        text-align: center;
+        gap: 100px;
+    }
+
+    .footer, .footer-description {
+        width: 100%;
     }
 }
