@@ -2,6 +2,9 @@
       Font Styles
 -------------------- */
 
+body {
+    font-family: 'Poppins', sans-serif;;
+}
 
 /* ---------------
     Header Style 
@@ -11,6 +14,7 @@ header {
     /* width: 1920px;
     height: 1322px; */
     background-color: #FFF4E7;
+    margin: 0px 0px;
 }
 .nav-container {
     display: flex;
@@ -186,7 +190,7 @@ nav ul li {
     border: none;
     background-color: #FF900E;
     border-radius: 10px;
-    color: #f3e7e7;
+    color: white;
     padding: 46px 42px 45px 42px;
     margin-top: -120px;
     margin-left: -50px;
